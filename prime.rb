@@ -1,3 +1,6 @@
+require'benchmark'
+
+puts Benchmark.measure{prime?(101013)}
 # Add  code here!
 def prime?(number)
   i = 2
