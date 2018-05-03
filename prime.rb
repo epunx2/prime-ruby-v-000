@@ -1,4 +1,4 @@
-require 'benchmark'
+require `benchmark`
 
 puts Benchmark.measure{prime?(101013)}
 # Add  code here!
